@@ -101,7 +101,7 @@ const getUserLocation = () => {
   }
 };
 
-// Fonction : Transformer texte en coordonnées (Geocoding)
+// Transformer texte en coordonnées
 const geocodeAddress = async (address) => {
   if (!address || address.length < 3) return null;
   try {
